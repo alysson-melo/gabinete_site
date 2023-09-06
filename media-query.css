@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+
+Mobile devices – 320px — 480px.
+Tablets and mobile devices – 481px — 768px.
+Laptops and tablets – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more. */
+
+@media screen and (min-width: 768px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        background: url("imgs/a.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+
+    #container_menu {
+        max-height: 100px;
+    }
+
+    .header{
+        display: flex;
+        max-width: 1200px;
+        height: 90px;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    #logo_menu {
+        border-bottom: 3px solid #03a7b9;
+        padding: 0;
+    }
+
+    header > div > h1 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 40px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    #burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul {
+        margin-block: 10px;
+    }
+    
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        font-size: 18px;
+        padding: 20px;
+        margin-inline: 10px;
+        border: none;
+        border-radius: 20px;
+    }
+
+}

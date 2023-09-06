@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: 'Inter', arial, sans-serif; 
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("imgs/vaipls.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#container_menu {
+    background-color: rgba(41, 41, 41, 0.959);
+}
+
+#logo_menu {
+    border-bottom: 3px solid #03a7b9;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+header > div > h1 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+#burger {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(63, 63, 63, 0.959);
+}
+
+#burger:hover {
+   background-color: white;
+   color: black;
+   cursor: pointer;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-top: 2px solid black; 
+}
+
+menu > ul > li > a:hover {
+    background-color: grey;
+}
+
+.ativa {
+    background-color: rgb(94, 94, 94);
+}
+
+footer {
+    width: 100vw;
+
+}
