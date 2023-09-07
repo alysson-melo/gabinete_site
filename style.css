@@ -86,6 +86,7 @@ menu>ul>li>a:hover {
 #footer-home {
     width: 100vw;
     height: 70px;
+    margin-block: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,3 +99,19 @@ menu>ul>li>a:hover {
     color: white;
     margin: 15px;
 }
+
+#footer-home>a {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#anchor {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+
