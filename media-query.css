@@ -10,7 +10,7 @@ Extra large screens, TV – 1201px, and more. */
 
 @media screen and (min-width: 768px) {
 
-    body {
+    #body-home {
         width: 100vw;
         height: 100vh;
         background: url("imgs/a.png");
@@ -24,7 +24,7 @@ Extra large screens, TV – 1201px, and more. */
         max-height: 100px;
     }
 
-    .header{
+    .header {
         display: flex;
         max-width: 1200px;
         height: 90px;
@@ -39,14 +39,14 @@ Extra large screens, TV – 1201px, and more. */
         padding: 0;
     }
 
-    header > div > h1 {
+    header>div>h1 {
         font-family: 'Kanit', sans-serif;
         font-size: 40px;
         letter-spacing: 2px;
         text-align: center;
         padding: 0px;
     }
-    
+
     #burger {
         display: none;
     }
@@ -55,15 +55,15 @@ Extra large screens, TV – 1201px, and more. */
         display: block;
     }
 
-    menu > ul {
+    menu>ul {
         margin-block: 10px;
     }
-    
-    menu > ul > li {
+
+    menu>ul>li {
         display: inline-block;
     }
 
-    menu > ul > li > a {
+    menu>ul>li>a {
         font-size: 18px;
         padding: 20px;
         margin-inline: 10px;

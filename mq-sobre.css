@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+
+body {
+    background: url("imgs/a.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+}
