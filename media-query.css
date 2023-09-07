@@ -13,7 +13,7 @@ Extra large screens, TV – 1201px, and more. */
     #body-home {
         width: 100vw;
         height: 100vh;
-        background: url("imgs/a.png");
+        background: url("imgs/bg_pc.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;

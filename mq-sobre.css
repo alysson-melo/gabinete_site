@@ -1,7 +1,9 @@
+@charset "UTF-8";
+
 @media screen and (min-width: 768px) {
 
 body {
-    background: url("imgs/a.png");
+    background: url("imgs/bg_pc.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
