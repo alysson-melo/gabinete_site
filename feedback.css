@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#container-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    border: 2px solid #03a7b9;
+    margin-top: 200px;
+
+    text-align: center;
+    background-color: #212224;
+}
+
+#container-feedback>h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#container-feedback>h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
