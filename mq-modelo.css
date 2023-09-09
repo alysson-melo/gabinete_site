@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 629px) {
+
+    .container-modelo {
+        grid-template-rows: 5vh 40vh;
+
+    }
+
+}
+
 @media screen and (min-width: 1024px) {
 
     .container-modelo {
@@ -27,15 +36,6 @@
         justify-content: center;
         margin-right: 60px;
     }
-}
-
-@media screen and (max-width: 629px) {
-
-    .container-modelo {
-        grid-template-rows: 5vh 40vh;
-
-    }
-
 }
 
 @media screen and (min-width: 1545px) {

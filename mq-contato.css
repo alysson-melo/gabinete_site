@@ -6,6 +6,9 @@
         max-width: 650px;
         padding-top: 30px;
         margin: auto;
+    }
 
+    #footer-contato {
+        margin-top: 200px;
     }
 }

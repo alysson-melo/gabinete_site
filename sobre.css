@@ -19,7 +19,7 @@ main {
     margin-top: 30px;
     padding: 20px;
     border-radius: 15px;
-    background-color:  #7ecfe7;
+    background-color: #7ecfe7;
 }
 
 .article-sobre>h2 {
@@ -29,7 +29,6 @@ main {
 
 .article-sobre>p {
     margin-bottom: 10px;
-    text-align: justify;
     font-size: 16px;
     font-weight: 500;
     color: black;
@@ -43,7 +42,7 @@ main {
     height: 10%;
     padding: 20px;
     margin-top: 20px;
-    background-color: rgba(41, 41, 41, 0.959);    
+    background-color: rgba(41, 41, 41, 0.959);
 }
 
 .footer-general>h3 {
