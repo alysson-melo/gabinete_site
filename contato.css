@@ -12,7 +12,8 @@
     flex-direction: column;
     padding-block: 40px;
     border-radius: 35px;
-    background: #212224;
+    border: 2px solid #03a7b9;
+    background-color: #212224;
 }
 
 .container-form>h1,

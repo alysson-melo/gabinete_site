@@ -8,11 +8,13 @@
     grid-gap: 20px;
     padding: 20px;
     border-radius: 15px;
-    background-color: #7ecfe7;
+    text-align: left;
+    border: 2px solid #03a7b9;
+    background-color: #212224;
 }
 
 .container-modelo>h2 {
-    color: black;
+    color: white;
     text-align: center;
     font-size: 27px;
 }
@@ -30,11 +32,15 @@
 }
 
 .infos>h2 {
-    color: black;
+    color: white;
     margin-bottom: 10px;
 }
 
-.infos>b {
-    color: black;
+.infos>p {
+    color: white;
+}
+
+.article-sobre {
+    color: white;
     font-weight: bolder;
 }
