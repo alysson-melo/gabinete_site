@@ -48,7 +48,8 @@ main {
     background-color: rgba(41, 41, 41, 0.959);
 }
 
-.footer-general>h3 {
+.footer-general>.textof>h3 {
+    margin-top: 5px;
     color: white;
     font-size: 15px;
     font-weight: 500;
