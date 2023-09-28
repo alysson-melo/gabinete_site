@@ -69,3 +69,13 @@ main {
     color: white;
     text-decoration: none;
 }
+
+.textof {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.seta {
+    display: flex;
+}
