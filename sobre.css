@@ -64,12 +64,6 @@ main {
     text-decoration: none;
 }
 
-#anchor {
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-}
-
 .textof {
     display: flex;
     flex-direction: column;
@@ -78,4 +72,10 @@ main {
 
 .seta {
     display: flex;
+}
+
+#anchor {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
 }
