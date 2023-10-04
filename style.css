@@ -85,8 +85,7 @@ menu>ul>li>a:hover {
 
 #footer-home {
     width: 100vw;
-    height: 150px;
-    margin-block: auto;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
