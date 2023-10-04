@@ -79,3 +79,26 @@ main {
     color: white;
     text-decoration: none;
 }
+
+#back-top {
+    display: flex;
+    justify-content: center;
+    background: #03a7b9;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+  }
+  
+  #back-top>a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
